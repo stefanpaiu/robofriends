@@ -1,10 +1,9 @@
 {
   "name": "robofriends",
-  "homepage": "https://github.com/stefanpaiu/robofriends.git",
+  "homepage": "https://stefanpaiu.github.io/robofriends",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
@@ -36,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
