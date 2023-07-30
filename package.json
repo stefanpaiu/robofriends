@@ -1,6 +1,6 @@
 {
   "name": "robofriends",
-  "homepage": "https://github.com/stefanpaiu/robofriends.git",
+  "homepage": "https://stefanpaiu.github.io/robofriends",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,5 +36,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
   }
 }
